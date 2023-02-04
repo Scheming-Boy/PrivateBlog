@@ -1,0 +1,60 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "/common/widgets.json",
+    "description": "侧栏小部件的配置 \n http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "position": {
+                "type": "string",
+                "description": "小部件应该放在哪里，左边栏还是右边栏",
+                "default": "left"
+            }
+        },
+        "oneOf": [
+            {
+                "$ref": "/widgets/profile.json"
+            },
+            {
+                "$ref": "/widget/toc.json"
+            },
+            {
+                "$ref": "/widget/links.json"
+            },
+            {
+                "$ref": "/widget/categories.json"
+            },
+            {
+                "$ref": "/widget/recent_posts.json"
+            },
+            {
+                "$ref": "/widget/archives.json"
+            },
+            {
+                "$ref": "/widget/tags.json"
+            },
+            {
+                "$ref": "/widget/subscribe_email.json"
+            },
+            {
+                "$ref": "/widget/adsense.json"
+            },
+            {
+                "$ref": "/widgets/ads-x.json"
+            },
+            {
+                "$ref": "/widgets/hot-recommend.json"
+            },
+            {
+                "$ref": "/widgets/latest-comment.json"
+            },
+            {
+                "$ref": "/widgets/recommend-post.json"
+            }
+        ],
+        "required": [
+            "position"
+        ]
+    }
+}

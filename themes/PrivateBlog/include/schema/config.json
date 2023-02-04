@@ -1,0 +1,78 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "/config.json",
+    "description": "配置文件定义",
+    "type": "object",
+    "properties": {
+        "version": {
+            "type": "string",
+            "description": "配置文件的版本",
+            "default": "4.0.0"
+        },
+        "variant": {
+            "type": "string",
+            "description": "Icarus 主题变体，可以 \"default\" or \"cyberpunk\"",
+            "enum": [
+                "default",
+                "cyberpunk"
+            ],
+            "default": "default"
+        },
+        "logo": {
+            "type": [
+                "string",
+                "object"
+            ],
+            "description": "网站标识的路径或URL",
+            "default": "/img/logo.svg",
+            "properties": {
+                "text": {
+                    "type": "string",
+                    "description": "文字将显示在标识图像的地方"
+                }
+            },
+            "required": [
+                "text"
+            ]
+        },
+        "head": {
+            "$ref": "/common/head.json"
+        },
+        "navbar": {
+            "$ref": "/common/navbar.json"
+        },
+        "footer": {
+            "$ref": "/common/footer.json"
+        },
+        "article": {
+            "$ref": "/common/article.json"
+        },
+        "search": {
+            "$ref": "/common/search.json"
+        },
+        "comment": {
+            "$ref": "/common/comment.json"
+        },
+        "donates": {
+            "$ref": "/common/donates.json"
+        },
+        "share": {
+            "$ref": "/common/share.json"
+        },
+        "sidebar": {
+            "$ref": "/common/sidebar.json"
+        },
+        "widgets": {
+            "$ref": "/common/widgets.json"
+        },
+        "plugins": {
+            "$ref": "/common/plugins.json"
+        },
+        "providers": {
+            "$ref": "/common/providers.json"
+        }
+    },
+    "required": [
+        "version"
+    ]
+}
