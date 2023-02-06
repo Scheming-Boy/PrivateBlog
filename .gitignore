@@ -1,16 +1,8 @@
-.DS_Store
-Thumbs.db
-db.json
-*.log
+# Hexo Init
 node_modules/
+
+# Hexo g
 public/
-.deploy*/
-.vscode/
-yarn.lock
-.idea
-*.ipr
-*.iws
-*.iml
-.DS_Store
+
+# Hexo
 db.json
-public/
