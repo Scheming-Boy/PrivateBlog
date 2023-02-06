@@ -1,16 +1,16 @@
 # Site
-title: 乞丐小孩儿
+title: 程序猿老李
 subtitle: 大肚能容，能容天下难容之事。笑口常开，笑世间可笑之人。
 description: ''
 keywords: null
-author: 乞丐小孩儿
-email: qigaixiaohaier@foxmail.com
+author: 程序猿老李
+email: 798317108@qq.com
 language: 
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: 'https://PrivateBlogs.github.io/'
+url: 'https://Scheming-Boy.github.io/'
 root: /
 permalink: ':title.html'
 permalink_defaults: null
@@ -77,6 +77,10 @@ theme: PrivateBlog
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:PrivateBlogs/PrivateBlogs.github.io.git
-  branch: master
+  # repository: git@gitee.com:SchemingBoy/SchemingBoy.git
+  # repository: git@github.com:Scheming-Boy/Scheming-Boy.github.io.git
+  repo:
+    github: git@github.com:Scheming-Boy/Scheming-Boy.github.io.git
+    gitee: git@gitee.com:SchemingBoy/SchemingBoy.git
+  branch: main
   message: UpdateBlog
