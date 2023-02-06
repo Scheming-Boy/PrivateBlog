@@ -11,17 +11,17 @@ head:
     # 打开图元数据
     open_graph:
         # 页面标题 (可选)
-        title: 乞丐小孩儿
+        title: 程序猿老李
         # 页面类型 (可选)
         type: Blog
         # 页面URL (可选)
-        url: https://PrivateBlogs.github.io/
+        url: 'https://Scheming-Boy.github.io/'
         # 页面封面 (可选)
         image: https://cdn.jsdelivr.net/gh/privateblogs/blogimages@master/Avatar.png
         # 网站名称 (可选)
         site_name: 
         # 页面作者 (可选)
-        author: 乞丐小孩儿
+        author: 程序猿老李
         # 页面描述 (可选)
         description: 
         # 推特卡类型
@@ -196,7 +196,7 @@ widgets:
         position: left
         type: profile
         # 作者名字
-        author: 乞丐小孩儿
+        author: 程序猿老李
         # 作者标题
         author_title: 大肚能容,能容天下难容之事.笑口常开,笑世间可笑之人.
         # 作者的当前位置
