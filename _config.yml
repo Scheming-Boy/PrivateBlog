@@ -10,7 +10,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: 'https://Scheming-Boy.github.io/'
+url: 'https://scheming-boy.github.io/'
 root: /
 permalink: ':title.html'
 permalink_defaults: null
@@ -74,11 +74,11 @@ ignore: null
 theme: PrivateBlog
 
 # Deployment
-## Docs: http://hexo.io/docs/deployment.html
+# Docs: http://hexo.io/docs
+# repository: git@gitee.com:SchemingBoy/SchemingBoy.git
+# repository: git@github.com:Scheming-Boy/Scheming-Boy.github.io.git
 deploy:
   type: git
-  # repository: git@gitee.com:SchemingBoy/SchemingBoy.git
-  # repository: git@github.com:Scheming-Boy/Scheming-Boy.github.io.git
   repo:
     github: git@github.com:Scheming-Boy/Scheming-Boy.github.io.git
     gitee: git@gitee.com:SchemingBoy/SchemingBoy.git

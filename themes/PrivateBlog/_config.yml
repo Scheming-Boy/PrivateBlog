@@ -15,7 +15,7 @@ head:
         # 页面类型 (可选)
         type: Blog
         # 页面URL (可选)
-        url: 'https://Scheming-Boy.github.io/'
+        url: 'https://scheming-boy.github.io/'
         # 页面封面 (可选)
         image: https://cdn.jsdelivr.net/gh/privateblogs/blogimages@master/Avatar.png
         # 网站名称 (可选)
