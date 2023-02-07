@@ -75,12 +75,12 @@ theme: PrivateBlog
 
 # Deployment
 # Docs: http://hexo.io/docs
-# repository: git@gitee.com:SchemingBoy/SchemingBoy.git
-# repository: git@github.com:Scheming-Boy/Scheming-Boy.github.io.git
 deploy:
-  type: git
-  repo:
-    github: git@github.com:Scheming-Boy/Scheming-Boy.github.io.git
-    gitee: git@gitee.com:SchemingBoy/SchemingBoy.git
+- type: git
+  repo: git@github.com:Scheming-Boy/Scheming-Boy.github.io.git
+  branch: main
+  message: UpdateBlog
+- type: git
+  repo: git@gitee.com:SchemingBoy/SchemingBoy.git
   branch: main
   message: UpdateBlog
