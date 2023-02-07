@@ -6,3 +6,5 @@ public/
 
 # Hexo
 db.json
+
+.deploy*/
